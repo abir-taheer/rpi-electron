@@ -47,7 +47,7 @@ async function writeToGlobal(text, summarize) {
   };
 
   const res = await axios(config);
-  return res.data.contents;
+  return summarize ? res.data.summary: res.data.contents;
 }
 
 const notifiedFor = new Set();
