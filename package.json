@@ -1,0 +1,24 @@
+{
+  "name": "uniclip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^15.3.0"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^5.15.5",
+    "@google-cloud/vision": "^2.4.0",
+    "axios": "^0.24.0",
+    "clipboardy": "^2.3.0",
+    "esm": "^3.2.25",
+    "object-hash": "^2.2.0",
+    "prettier": "^2.4.1"
+  }
+}
